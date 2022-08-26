@@ -1,14 +1,14 @@
 package NikoBolt;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Component;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class SimpleMessageRenderer implements MessageRenderer {
 
     private final MessageProvider provider;
 
-    @Autowired
+//    @Autowired
     public SimpleMessageRenderer(MessageProvider provider) {
         this.provider = provider;
     }
